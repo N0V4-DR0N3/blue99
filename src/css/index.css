@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Kosugi|Krona+One|Montserrat:400,800,900|Mukta:400,800|Odibee+Sans|Tomorrow:400,700,800&display=swap'); */
+@font-face {
+    font-family: "The Bold Font";
+    src: url('./theboldfont.ttf');
+}
+
+.modal-content{
+    background-color: #131313;
+    color: white;
+}
+
+.modal-header{
+    border-radius: 0;
+    background-color: white;
+    font-family: "The Bold Font";
+}
+
+.modal-header .modal-title{
+    color: black;
+    letter-spacing: .1em;
+}
+
+.modal-header button, .modal-header button:hover span{
+    color: red;
+}
+
+#form_promo input[type=submit]:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "PoetsenOne";
+  src: url(./../files/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "The Bolt Font";
+  src: url(./../files/theboldfont.ttf);
+}
+
+/* PRIMEIRA PARTE */
+
+* {
+  font-family: "PoetsenOne", sans-serif;
+  /* color: #0089e1; */
+  justify-content: center;
+}
+
+#start h1,
+#start p,
+#video h1,
+#cenario-atual h2 {
+  background: -webkit-linear-gradient(left, #01304d, #0089e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+#start h5 {
+  color: white;
+  margin: 0;
+}
+
+#start-textBox {
+  margin: auto;
+  width: 50%;
+}
+
+#start p {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 2vh;
+}
+
+/* DIVISION */
+.division {
+  margin-top: 2vw;
+  background-color: #ffd200;
+  height: 0.1vw;
+}
+
+/* VIDEO */
+
+#video {
+  margin-top: 3vh;
+}
+
+#video_yt {
+  margin: auto;
+  width: 60%;
+}
+
+#video h1 {
+  margin-top: 2vh;
+}
+
+#video .item img {
+  align-self: baseline;
+  width: 20px;
+  height: 20px;
+  margin-top: 1vw;
+}
+
+#video .item h6 {
+  font: bold 1em Arial, Helvetica, sans-serif;
+  /* font-family: "Arial Bold", sans-serif; */
+  color: white;
+  margin-top: 1vw;
+}
+
+.modulos_itens {
+  /* align-self: baseline; */
+  align-items: baseline;
+}
+
+.modulos_itens div img {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  align-self: baseline;
+}
+
+.modulos_itens div h6 {
+  /* font: bold 1em Arial, Helvetica, sans-serif; */
+  align-self: baseline;
+  margin: 1vw 1vw;
+  color: black;
+  display: inline-block;
+  align-self: baseline;
+}
+
+.btn-adquirir {
+  font-family: "The Bolt Font", sans-serif;
+  color: white;
+  border: 3px solid #ffd200;
+  width: 100%;
+  letter-spacing: 0.04em;
+  border-radius: 0%;
+}
+
+.btn-adquirir:hover {
+  color: white;
+}
+
+#quem-somos img {
+  margin-top: 2vw;
+  width: 40vw;
+  height: 20vw;
+}
+
+#quem-somos h4 {
+  font-family: "The Bolt Font", sans-serif;
+  color: white;
+  margin-top: 2vw;
+}
+
+#quem-somos p {
+  font: bold 1em Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-top: 1vw;
+}
+
+#cenario-atual {
+  color: white;
+}
+
+#cenario-atual h3 {
+  font-family: "The Bolt Font", sans-serif;
+  margin-top: 6vw;
+  font-size: 32px;
+}
+
+#cenario-atual p {
+  margin-top: 2vw;
+  text-align: justify;
+  font: bold 1em Arial, Helvetica, sans-serif;
+}
+
+#cenario-atual h1,
+#cenario-atual h2 {
+  margin: 4vw;
+}
+
+.boxPrice {
+  background-image: linear-gradient(to right, #01609d, #0089e1);
+  padding: 5vh 3vh 5vh 3vh;
+  width: 50%;
+  margin: auto;
+  margin: 6vw auto;
+  border: 3px dashed white;
+}
+
+.boxPrice .priceText {
+  font-family: "The Bolt Font", sans-serif;
+  margin: 0;
+  color: black;
+}
+
+.boxPrice .priceValue {
+  font-family: "The Bolt Font", sans-serif;
+  color: white;
+  margin: 0;
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.boxPrice .boxButton p {
+  /* font: bold 1em Arial, Helvetica, sans-serif; */
+  margin-top: 2vw;
+}
+
+.boxPrice .boxButton button {
+  width: 100%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  font-family: "The Bolt Font", sans-serif;
+  background-color: #ffd200;
+  border-radius: 30vh;
+  color: black;
+}
+.boxPrice .boxButton button:hover {
+  background-image: linear-gradient(to right, #ffd200, #e8d60c);
+}

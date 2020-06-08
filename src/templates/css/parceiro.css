@@ -1,0 +1,92 @@
+#title {
+    margin-top: 2vw;
+    font-size: 52px;
+    font-family: "The Bold Font";
+    color: white;
+}
+
+#description {
+    color: white;
+    font-family: Arial, cursive;
+    text-align: center;
+
+}
+
+.btn-termos {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: .5vw;
+    border-radius: 30vw;
+    font-family: "The Bold Font";
+}
+
+.btn-termos:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.par-body {
+    width: 100%;
+    background-color: #90c2e1;
+    padding: 2vw;
+}
+.par-img {
+    width: 100%;
+}
+
+.par-title {
+    font-family: "The Bold Font";
+    font-size: 22px;
+}
+
+.par-description {
+    font-family: Arial, cursive;
+    text-align: left;
+    text-align-last: left;
+}
+
+.btns {
+    width: 100%;
+    align-self: baseline;
+}
+
+.par-btn {
+    background-color: #ffc107;
+    font-family: "The Bold Font", cursive;
+    color: BLACK;
+    /* padding: .5vw 2.5vw; */
+    text-decoration: none;
+    padding: .5vw 1vw;
+    border-radius: 30vw;
+    cursor: pointer;
+}
+
+.par-btn:hover{
+    text-decoration: none;
+    background-color: #E6AE07;
+    color: black;
+}
+
+.redes {
+    margin-top: 1vw;
+    text-align: center;
+    align-self: baseline;
+}
+
+.redes img {
+    margin-left: .2vw;
+    width: 30px;
+}
+
+#email-footer {
+    text-align: center;
+    padding: 1vw;
+}
+
+#email-footer p {
+    margin: 0;
+    font-family: Arial, cursive;
+    font-size: 14px;
+}

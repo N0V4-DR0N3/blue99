@@ -1,0 +1,50 @@
+h3{
+    margin-top: 4vw;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: "The Bold Font";
+}
+
+p{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+.f-body{
+    padding: 2vw 1vw .5vw 1vw;
+    border: 1px dashed #ffc107;
+    margin-bottom: 4vw;
+}
+
+.f-body input::placeholder{
+    color: white;
+    font-family: "Arial", cursive;
+}
+
+.f-body input, .f-body input:focus{
+    font-family: "Arial", cursive;
+    background-color: #B8B8B8;
+    border: 1px solid #B8B8B8;
+    color: white;
+}
+
+.btn-submit{
+    margin-top: 2vw;
+    margin-bottom: 0;
+    background-color: white;
+    border-radius: 2vw;
+    padding: .2vw 2vw;
+}
+#email-footer {
+    text-align: center;
+    padding: 1vw;
+}
+
+#email-footer p {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, cursive;
+    font-size: 14px;
+}

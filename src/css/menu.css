@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Kosugi|Krona+One|Montserrat:400,800,900|Mukta:400,800|Odibee+Sans|Tomorrow:400,700,800&display=swap');
+@font-face {
+    font-family: "The Bold Font";
+    src: url('./theboldfont.ttf');
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a{
+    align-self: baseline;
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-link{
+    padding: 1vw;
+    font-family: "The Bold Font",sans-serif;
+    letter-spacing: .1em;
+    color: #131313;
+}
+
+
+.sub-navbar {
+    background-color: #131313;
+    padding: 0
+}
+
+.sub-navbar .navbar-brand img {
+    width: 60px;
+}
+
+.sub-navbar .navbar-brand {
+    align-self: baseline;
+}
+
+
+.sub-navbar .btn-adquirir {
+    font-size: 18px;
+    align-self: baseline;
+    font-family: "The Bold Font", sans-serif;
+    padding: .2vw .5vw;
+    background-color: #ffc107;
+    border-radius: .6vw;
+    color: white;
+}
+
+.sub-navbar .btn-adquirir:hover {
+    cursor: pointer;
+    background-color: #E6AE07;
+}

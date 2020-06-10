@@ -6,13 +6,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
-import {
-  Container,
-  Row,
-  Col,
-  Navbar,
-  Nav,
-} from "react-bootstrap";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 
 import image_enviar from "./files/enviar.svg";
 import image_facebook from "./files/facebook.svg";
@@ -31,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Navbar style={{ backgroundColor: "#ffd200" }} expand="lg">
+        <Navbar style={{ backgroundColor: "#007fcf" }} expand="lg">
           <Container>
             <Navbar.Toggle arial-controls="menu" />
             <Navbar.Collapse id="menu">
@@ -47,14 +41,14 @@ class App extends Component {
                   INÍCIO
                 </Link>
                 <Link
-                  to={{ pathname: "/", hash: "#quem-somos" }}
+                  to={{ pathname: "", hash: "#quem-somos" }}
                   className="nav-link"
                   type="button"
                 >
                   O QUE É
                 </Link>
                 <Link
-                  to={{ pathname: "/", hash: "#sobre" }}
+                  to={{ pathname: "", hash: "#sobre" }}
                   className="nav-link"
                   type="button"
                 >
@@ -66,13 +60,17 @@ class App extends Component {
         </Navbar>
 
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route>
+            <Home />
+          </Route>
         </Switch>
-
         <div
           className="text-center"
           id="email-footer"
-          style={{ backgroundColor: "#90c2e1", padding: "1vw" }}
+          style={{ backgroundColor: "#90c2e1", padding: "3vh" }}
         >
           <img alt="email" src={image_enviar} width="30" height="30" />
           <h5>suporte@blue99.com.br</h5>
@@ -85,8 +83,8 @@ class App extends Component {
         <footer>
           <Container>
             <Row>
-              <Col md={9}></Col>
-              <Col md={3} style={{ marginTop: "2vw" }}>
+              <Col md={9} lg={9} sm={12} xs={12}></Col>
+              <Col md={3} lg={3} sm={12} xs={12} style={{ marginTop: "2vw" }}>
                 <h6
                   style={{
                     fontFamily: "The Bolt Font, sans-serif",

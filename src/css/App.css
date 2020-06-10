@@ -26,6 +26,11 @@
   margin: 0;
 }
 
+#start img {
+  padding: 0;
+  margin: 0;
+}
+
 #start h5 {
   color: white;
   margin: 0;
@@ -64,6 +69,14 @@
   margin-top: 2vh;
 }
 
+.priceB {
+  padding: ".3vw";
+  margin: "auto";
+  width: "80%";
+  margin-top: "2vw";
+  color: "black";
+}
+
 #video .item img {
   align-self: baseline;
   width: 20px;
@@ -78,9 +91,20 @@
   margin-top: 1vw;
 }
 
+.modulos {
+  /* text-align: center; */
+}
+
+.modulos_itens {
+  text-align: center;
+}
+
 .modulos_itens {
   /* align-self: baseline; */
-  align-items: baseline;
+  /* align-items: baseline; */
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 .modulos_itens div img {
@@ -114,7 +138,7 @@
 
 #quem-somos img {
   margin-top: 2vw;
-  width: 40vw;
+  width: 30vw;
   height: 20vw;
 }
 
@@ -190,4 +214,52 @@
 }
 .boxPrice .boxButton button:hover {
   background-image: linear-gradient(to right, #ffd200, #e8d60c);
+}
+
+@media screen and (max-width: 425px) {
+  #video_yt {
+    width: 100%;
+  }
+
+  .priceB {
+    padding: ".3vw";
+    margin: "auto";
+    width: "100%";
+    margin-top: "2vw";
+    color: "black";
+  }
+
+  .boxPrice {
+    background-image: linear-gradient(to right, #01609d, #0089e1);
+    padding: 5vh 3vh 5vh 3vh;
+    width: 100%;
+    margin: auto;
+    margin: 6vw auto;
+    border: 3px dashed white;
+  }
+
+  .modulos_itens {
+    text-align: center;
+  }
+  
+  .modulos_itens {
+    width: 100%;
+  }
+  
+  .modulos_itens div img {
+    width: 19px;
+    height: 19px;
+    /* display: inline-block; */
+    align-self: baseline;
+  }
+  
+  .modulos_itens div h6 {
+    /* font: bold 1em Arial, Helvetica, sans-serif; */
+    align-self: baseline;
+    margin: 1vw 1vw;
+    text-align: justify;
+    color: black;
+    /* display: inline-block; */
+    align-self: baseline;
+  }
 }

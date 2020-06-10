@@ -22,10 +22,20 @@ class Home extends Component {
       <div>
         <Container>
           <Row>
-            <Col md={12} className="text-center" id="start">
-              <Image src={EnemLogo} style={{ width: "70vh", height: "50vh" }} />
-              <h1>GUIANDO SUA APROVAÇÃO</h1>
-              <h5>POR: BLUE99 - PLATAFORMA DIGITAL</h5>
+            <Col
+              md={12}
+              sm={12}
+              xs={12}
+              lg={12}
+              className="text-center"
+              id="start"
+            >
+              <Image
+                src={EnemLogo}
+                style={{ width: "50%", height: "25vh", marginTop: "4vw" }}
+              />
+              <h1 style={{ marginTop: "0vw" }}>GUIANDO SUA APROVAÇÃO</h1>
+              <h5>BLUE99 - PLATAFORMA DIGITAL</h5>
               <div id="start-textBox">
                 <p>
                   'UM MATERIAL COMPLETO, COM METODOLOGIAS ATUAIS E TUDO QUE VOCÊ
@@ -33,11 +43,18 @@ class Home extends Component {
                 </p>
               </div>
             </Col>
-            <Col className="division" md={12}></Col>
-            <Col id="video" md={12} className="text-center">
+            <Col className="division" md={12} sm={12} xs={12} lg={12}></Col>
+            <Col
+              id="video"
+              md={12}
+              sm={12}
+              xs={12}
+              lg={12}
+              className="text-center"
+            >
               <div id="video_yt">
                 <YouTube
-                  videoId="v5Vrl6kKsrA"
+                  videoId="VlnYMIFtx-w"
                   opts={{
                     height: "400",
                     width: "100%",
@@ -52,49 +69,55 @@ class Home extends Component {
 
               <div style={{ width: "50%", margin: "auto", marginTop: "2vw" }}>
                 <Row className="text-left">
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6>TÉCNICAS INTERATIVAS PARA FACILITAÇÃO;</h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6>METOLOGIAS ATUAIS DE ESTUDO; </h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6>DEZENAS DE MATERIAIS DE APOIO;</h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6> INSTRUÇÕES E PASSO A PASSO;</h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6>INDICAÇÕES DE ASSUNTOS;</h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6>GUIA FÁCIL DE REDAÇÃO;</h6>
                   </Col>
-                  <Col className="item" md={1}>
+                  <Col className="item" md={1} sm={2} xs={2} lg={1}>
                     <Image src={Verify} />
                   </Col>
-                  <Col className="item" md={11}>
+                  <Col className="item" md={11} sm={10} xs={10} lg={11}>
                     <h6> MANUAIS DE ESTUDO; E MUITO MAIS!</h6>
                   </Col>
-                  <Col md={12} style={{ marginTop: "2vw" }}>
+                  <Col
+                    md={12}
+                    sm={12}
+                    xs={12}
+                    lg={12}
+                    style={{ marginTop: "2vw" }}
+                  >
                     <Button
                       variant="adquirir"
                       onClick={(e) => this.btnAdquirir(e)}
@@ -115,12 +138,18 @@ class Home extends Component {
         >
           <Container>
             <Row>
-              <Col md={12}>
+              <Col md={12} sm={12} xs={12} lg={12}>
                 <Image src={Blue99Logo}></Image>
               </Col>
-              <Col md={12} style={{ marginBottom: "4vw" }}>
+              <Col
+                md={12}
+                sm={12}
+                xs={12}
+                lg={12}
+                style={{ marginBottom: "4vw", color: "black" }}
+              >
                 <div style={{ margin: "auto", width: "70%" }}>
-                  <h4 style={{ fontSize: "32px" }}>QUEM SOMOS</h4>
+                  <h4 style={{ fontSize: "32px" }}>ESTUDOS ONLINE</h4>
                   <p>
                     Através de pesquisas, testes e estudos, iniciamos a
                     plataforma digital BLUE99. Desde 2017 buscamos estudar esse
@@ -150,7 +179,14 @@ class Home extends Component {
         </div>
         <Container>
           <Row>
-            <Col className="text-center" id="cenario-atual" md={12}>
+            <Col
+              className="text-center"
+              id="cenario-atual"
+              md={12}
+              sm={12}
+              xs={12}
+              lg={12}
+            >
               <div style={{ margin: "auto", width: "70%" }}>
                 <h3>CENÁRIO ATUAL</h3>
                 <p>
@@ -174,23 +210,15 @@ class Home extends Component {
                 </Button>
               </div>
             </Col>
-            <Col md={12} className="text-center">
+            <Col md={12} sm={12} xs={12} lg={12} className="text-center">
               <div className="boxPrice">
                 <h6 className="priceText">PREÇO NORMAL</h6>
-                <h5 className="priceValue">R$: 106,99</h5>
-                <div
-                  style={{
-                    padding: ".3vw",
-                    margin: "auto",
-                    width: "80%",
-                    marginTop: "2vw",
-                    color: "black",
-                  }}
-                >
+                <h5 className="priceValue">R$: XXX,XX</h5>
+                <div className="priceB">
                   <h5>ADQUIRA AGORA COM 30% DE DESCONTO</h5>
                   <div style={{ border: "5px solid white" }}>
                     <h1 style={{ fontSize: "64px", margin: "0 1vw 0 0" }}>
-                      R$: 74,99
+                      R$: XXX,XX
                     </h1>
                     <h6 style={{ margin: "0 0 1vw 0" }}>
                       OU DIVIDA EM ATÉ 12 VEZES COM SEU CARTÃO
@@ -217,7 +245,7 @@ class Home extends Component {
         <div className="text-center" style={{ backgroundColor: "white" }}>
           <Container>
             <Row>
-              <Col md={12}>
+              <Col md={12} sm={12} xs={12} lg={12}>
                 <h1
                   style={{
                     fontFamily: "The Bolt Font, sans-serif",
@@ -228,125 +256,181 @@ class Home extends Component {
                   NOSSO CONTEÚDO
                 </h1>
               </Col>
-              <Col md={12} className="modulos" style={{ marginTop: "1vw" }}>
+              <Col md={12} sm={12} xs={12} lg={12} style={{ marginTop: "1vw" }}>
                 <h6>MÓDULO 1 - INTRODUÇÃO AO ESTUDO</h6>
                 <div className="division"></div>
                 <Row className="text-left modulos_itens">
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>FOLHA DE ROSTO, APRESENTAÇÃO E QUEM SOMOS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>MANUAL E INSTRUÇÕES DE USO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>DICAS DE UTILIZAÇÃO E SUAS FUNCIONABILIDADES;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>INTRODUÇÃO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>MANUAL DE USO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>METODLOGIAS DISPONÍVEIS;</h6>
                   </Col>
                 </Row>
               </Col>
-              <Col md={12} className="modulos" style={{ marginTop: "1vw" }}>
+              <Col md={12} sm={12} xs={12} lg={12} className="modulos" style={{ marginTop: "1vw" }}>
                 <h6>MÓDULO 2 - METODOLOGIAS DE ESTUDO</h6>
                 <div className="division"></div>
-                <Row className="text-left modulos_itens">
-                  <Col md={12}>
+                <Row className="text-left modulos_itens ">
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>INDICAÇÕES DE VIDEO AULAS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>LEITURA DE LIVROS, TEXTOSE E ARTIGOS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>TÉCNICA POMODORO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>MÉTODO DE ESTUDO ROBINSON (EPL2R);</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>RESUMO DE TEXTOS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>ELABORAÇÃO DE PERGUNTAS;</h6>
                   </Col>
                 </Row>
               </Col>
-              <Col md={12} className="modulos" style={{ marginTop: "1vw" }}>
+              <Col md={12} sm={12} xs={12} lg={12} className="modulos" style={{ marginTop: "1vw" }}>
                 <h6>MÓDULO 3 - METODOLOGIAS DE REVISÃO</h6>
                 <div className="division"></div>
                 <Row className="text-left modulos_itens">
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>MODO FOCADO E DIFUSO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>AUTOEXPLICAÇÃO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>VIAGENS MENTAIS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>GRUPO DE REVISÃO VIRTUAL;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>O QUE É, E COMO EVITAR A PROCRASTINAÇÃO;</h6>
                   </Col>
                 </Row>
               </Col>
-              <Col md={12} className="modulos" style={{ marginTop: "1vw" }}>
+              <Col md={12} sm={12} xs={12} lg={12} className="modulos" style={{ marginTop: "1vw" }}>
+                <h6>MÓDULO 4 - MANUAIS E DICAS</h6>
+                <div className="division"></div>
+                <Row className="text-left modulos_itens">
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>COMO ORGANIZAR SEU LOCAL DE ESTUDOS;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>MATERIAIS QUE COMENDAMOS;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>COMO USAR O E-BOOK PELO COMPUTADOR;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>COMO USAR O E-BOOK PELO CELULAR;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>COMO USAR O E-BOOK OFFLINE;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>CONTATOS BLUE99 E E-ENEM 2020;</h6>
+                  </Col>
+                </Row>
+              </Col>
+              <Col md={12} sm={12} xs={12} lg={12} className="modulos" style={{ marginTop: "1vw" }}>
+                <h6>MÓDULO 5 - FOLHA DE LINKS (PARA IMPRESSÃO)</h6>
+                <div className="division"></div>
+                <Row className="text-left modulos_itens">
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>PLANEJAMENTO SEMANAL;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>CONTROLE DE ESTUDOS;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>TABELA DE PROGRESSO;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>REDAÇÃO: FOLHA DE ROSTO, CORREÇÃO E PROGRESSO;</h6>
+                  </Col>
+                  <Col md={12} sm={12} xs={12} lg={12}>
+                    <Image src={Verify} />
+                    <h6>MATERIAL DE APOIO COMPLETO (+40 PAGINAS);</h6>
+                  </Col>
+                </Row>
+              </Col>
+              <Col md={12} sm={12} xs={12} lg={12} className="modulos" style={{ marginTop: "1vw" }}>
                 <h6>MÓDULO 6 - ASSUNTOS EXIGIDOS E PROFESSORES RECOMENDADOS</h6>
                 <div className="division"></div>
                 <Row className="text-left modulos_itens">
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>
                       Linguagens, Códigos e suas Tecnologias;<br></br>GRAMÁTICA,
                       LITERATURA, INGLÊS E ESPANHOL;
                     </h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>
                       Maematíca e suas Tecnologias;<br></br>MATEMÁTICA PARTE 1 E
                       2;
                     </h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>
                       Ciências da Natureza e suas Tecnologias;<br></br>QUÍMICA,
                       FÍSICA E BIOLOGIA;
                     </h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>
                       Ciências Humanas e suas Tecnologias;<br></br>HISTORIA,
                       GEOGRAFIA, FILOSOFIA E SOCIOLOGIA
                     </h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>O QUE É, E COMO EVITAR A PROCRASTINAÇÃO;</h6>
                   </Col>
@@ -360,51 +444,51 @@ class Home extends Component {
                 <h6>MÓDULO 7 - ASSUNTOS EXIGIDOS E PROFESSORES RECOMENDADOS</h6>
                 <div className="division"></div>
                 <Row className="text-left modulos_itens">
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>ASSUNTOS EXIGIDOS E PROFESSORA RECOMENDADA;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>COMO SERÁ A REDAÇÃO;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>COMPETÊNCIAS EXIGIDAS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>EM QUAIS CASOS POSSO TIRAR ZERO NA REDAÇÃO?</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>TABELAS DE PONTUAÇÕES DAS COMPETÊNCIAS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>DICAS E MACETES IMPORTANTES;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>60 CITAÇÕES QUE PODEM SER USADAS;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>12 ALUSÕES HISTÓRICAS E SUAS PRÉVIAS EXPLICAÇÕES;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>CONSTITUIÇÃO FEDERAL DE 1988 (EM VIGOR);</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>PROIBIÇÕES DURANTE O EXAME;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>OS TEMAS DAS 20 ÚLTIMAS EDIÇÕES DO ENEM;</h6>
                   </Col>
-                  <Col md={12}>
+                  <Col md={12} sm={12} xs={12} lg={12}>
                     <Image src={Verify} />
                     <h6>
                       30 TEMAS COM ALTA PROBABILIDADE PARA A REDAÇÃO DE 2020; E
@@ -437,10 +521,7 @@ class Home extends Component {
                 convite exclusivo para o “CONTA PRONTA” diretamente no seu
                 email.
               </p>
-              <Image
-                src={ContaPronta}
-                style={{ margin: "3vw", width: "25vw", height: "20vw" }}
-              />
+              <Image src={ContaPronta} style={{ margin: "3vw" }} />
               <p style={{ margin: "auto", width: "70%" }}>
                 É uma solução criada para facilitar a vida financeira e atender
                 as necessidades de pessoas e empresas de nichos e segmentos
@@ -455,23 +536,15 @@ class Home extends Component {
                 Para ter uma conta você precisa receber um convite.
               </p>
             </Col>
-            <Col md={12} className="text-center">
+            <Col md={12} sm={12} xs={12} lg={12} className="text-center">
               <div className="boxPrice">
                 <h6 className="priceText">PREÇO NORMAL</h6>
-                <h5 className="priceValue">R$: 106,99</h5>
-                <div
-                  style={{
-                    padding: ".3vw",
-                    margin: "auto",
-                    width: "80%",
-                    marginTop: "2vw",
-                    color: "black",
-                  }}
-                >
+                <h5 className="priceValue">R$: XXX,XX</h5>
+                <div className="priceB">
                   <h5>ADQUIRA AGORA COM 30% DE DESCONTO</h5>
                   <div style={{ border: "5px solid white" }}>
                     <h1 style={{ fontSize: "64px", margin: "0 1vw 0 0" }}>
-                      R$: 74,99
+                      R$: XXX,XX
                     </h1>
                     <h6 style={{ margin: "0 0 1vw 0" }}>
                       OU DIVIDA EM ATÉ 12 VEZES COM SEU CARTÃO

@@ -32,7 +32,7 @@ class Home extends Component {
             >
               <Image
                 src={EnemLogo}
-                style={{ width: "50%", height: "25vh", marginTop: "4vw" }}
+                style={{ width: "20vw", height: "10vw", marginTop: "4vw" }}
               />
               <h1 style={{ marginTop: "0vw" }}>GUIANDO SUA APROVAÇÃO</h1>
               <h5>BLUE99 - PLATAFORMA DIGITAL</h5>
@@ -65,7 +65,7 @@ class Home extends Component {
                 />
               </div>
 
-              <h1>ESTUDE CONOSCO</h1>
+              <h1 style={{ color: "#facc00" }}>ESTUDE CONOSCO</h1>
 
               <div style={{ width: "50%", margin: "auto", marginTop: "2vw" }}>
                 <Row className="text-left">
@@ -215,9 +215,9 @@ class Home extends Component {
                 <h6 className="priceText">PREÇO NORMAL</h6>
                 <h5 className="priceValue">R$: XXX,XX</h5>
                 <div className="priceB">
-                  <h5>ADQUIRA AGORA COM 30% DE DESCONTO</h5>
+                  <h5 style={{color: "#131313"}}>ADQUIRA AGORA COM 30% DE DESCONTO</h5>
                   <div style={{ border: "5px solid white" }}>
-                    <h1 style={{ fontSize: "64px", margin: "0 1vw 0 0" }}>
+                    <h1 style={{ fontSize: "64px", margin: "0 1vw 0 0", color: "#131313" }}>
                       R$: XXX,XX
                     </h1>
                     <h6 style={{ margin: "0 0 1vw 0" }}>
